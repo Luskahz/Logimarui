@@ -1,0 +1,28 @@
+header {
+    width: 100%;
+    background-color: #fff; /* Cor de fundo */
+    padding: 15px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Garante que fique acima do conteúdo */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra opcional para destacar */
+}
+
+div.template {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    padding-top: 80px; /* Adiciona espaço para não sobrepor o header */
+}
+
+img {
+    max-width: 90%;
+    height: auto;
+}
